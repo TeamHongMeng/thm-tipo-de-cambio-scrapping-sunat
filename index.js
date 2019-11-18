@@ -11,7 +11,7 @@ database: 'tcs2',
 password: 'modulo4',
 port: '5432'});
 
-const corsList=['https://hongmengteam-principal.herokuapp.com/vista/TipoDeCambio','http://localhost:3000'];
+const corsList=['https://hongmengteam-principal.herokuapp.com/vista/TipoDeCambio','http://localhost:3000', 'https://hongmengteam-principal.herokuapp.com'];
 const corsOptions={
     origin:(origin,callback)=>
     {
