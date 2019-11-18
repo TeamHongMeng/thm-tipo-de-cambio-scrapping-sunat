@@ -11,7 +11,7 @@ database: 'tcs2',
 password: 'modulo4',
 port: '5432'});
 
-const corsList=['https://tcs-nuevo-mantenimiento.herokuapp.com','http://localhost:3000'];
+const corsList=['https://hongmengteam-principal.herokuapp.com/vista/TipoDeCambio','http://localhost:3000'];
 const corsOptions={
     origin:(origin,callback)=>
     {
@@ -284,5 +284,5 @@ scrappingFromSunat = async (anio, mes) => {
 
 
 app.listen(process.env.PORT || 5000, () => {
-    console.log("Servidor arrancado gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    console.log("Servidor arrancado");
 });
